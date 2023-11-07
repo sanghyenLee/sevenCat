@@ -12,7 +12,7 @@ nav{
 p {
     margin: 0;
     padding: 0;
-    letter-spacing: -0.20rem;
+    letter-spacing: -0.2rem;
 }
 .container{
     padding-top: 120px;
@@ -84,14 +84,240 @@ p {
             }
        }
     }
-    .InnerContainer{
+    .InnerContainerL{
         padding: 80px 0;
         width: 1440px;
         margin: 0 auto;
 
-        .ContentContainer{
+        .ContentContainerL{
+            position: relative;
             width: 1400px;
             height: auto;
         }
+        .TextContainer{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            border-top-right-radius: 20px;
+            width: 40%;
+            height: 410px;
+            padding: 43px;
+            background: rgb(255, 131, 49);
+
+            span{
+                float: right;
+                font-size: 24px;
+                font-weight: 800;
+                color: white;
+            }
+            p{
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+            p:nth-child(2){
+                padding: 10px 0px 30px;
+                font-size: 36px;
+                line-height: 45px;
+                font-weight: 900;
+            }
+            p:nth-child(3){
+                padding-bottom: 24px;
+                font-size: 26px;
+                line-height: 32px;
+                font-weight: 800;
+            }
+            p:nth-child(4){
+                font-size: 16px;
+                font-weight: 700;
+                padding-bottom: 98px;
+            }
+            button{
+                height: 37px;
+                position: relative;
+                font-size: 16px;
+                font-weight: 800;
+                color: rgb(255, 131, 49);
+                background: white;
+                border-radius: 25px;
+                padding: 10px 46px 30px 23px;
+
+                .boxarrow{
+                    position: absolute;
+                    top: 50%;
+                    right: 15px;
+                    transform: translateY(-50%);
+                    img{
+                        width: 11px;
+                        height: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .InnerContainerR{
+        padding: 80px 0;
+        width: 1440px;
+        margin: 0 auto;
+
+        .ContentContainerR{
+            position: relative;
+            width: 1400px;
+            height: auto;
+        }
+        .TextContainer{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border-top-left-radius: 20px;
+            width: 40%;
+            height: 410px;
+            padding: 43px;
+            background: rgb(255, 131, 49);
+
+            span{
+                float: right;
+                font-size: 24px;
+                font-weight: 800;
+                color: white;
+            }
+            p{
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+            p:nth-child(2){
+                padding: 10px 0px 30px;
+                font-size: 36px;
+                line-height: 45px;
+                font-weight: 900;
+            }
+            p:nth-child(3){
+                padding-bottom: 24px;
+                font-size: 26px;
+                line-height: 32px;
+                font-weight: 800;
+            }
+            p:nth-child(4){
+                font-size: 16px;
+                font-weight: 700;
+                padding-bottom: 98px;
+            }
+            button{
+                height: 37px;
+                position: relative;
+                font-size: 16px;
+                font-weight: 800;
+                color: rgb(255, 131, 49);
+                background: white;
+                border-radius: 25px;
+                padding: 10px 46px 30px 23px;
+
+                .boxarrow{
+                    position: absolute;
+                    top: 50%;
+                    right: 15px;
+                    transform: translateY(-50%);
+                    img{
+                        width: 11px;
+                        height: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .MainContainer2{
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        h1{
+            display: inline-block;
+            position: relative;
+            left: 50%;
+            padding: 0px;
+            transform: translateX(-50%);
+            font-size: 36px;
+            margin: 50px 0px;
+            font-weight: 800;
+            text-align: center;
+        }
+        .ContentContainer{
+            width: 1270px;
+            margin: 0 auto;
+            height: 460px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .ContentBox{
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            width: 400px;
+            height: 450px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+            cursor: pointer;
+            .ImgContainer{
+                width: 400px;
+                height: 280px;
+                border-radius: 25px;
+                img{
+                    width: 400px;
+                    height: 280px;
+                }
+            }
+            .textBox{
+                position: absolute;
+                bottom: 0px;
+                height: 278px;
+                width: 100%;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                background: white;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+
+                p{
+                    padding: 20px;
+                    margin: 0px 0px 20px;
+                    white-space: pre-wrap;
+                }
+                p:first-child{
+                    color: black;
+                    height: 20%;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 37px;
+                }
+                p:nth-child(2){
+                    color: rgb(174, 174, 178);
+                    height: 50%;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    padding-top: 30px;
+                }
+                p:nth-child(3){
+                    color: rgb(174, 174, 178);
+                    height: 20%;
+                    font-size: 17px;
+                    margin: 0px;
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+    .morestory{
+        margin: 30px auto;
+        display: flex;
+        width: 287px;
+        height: 60px;
+        border: 2px solid rgb(174, 174, 178);
+        border-radius: 94px;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        cursor: pointer;
     }
 }
