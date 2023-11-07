@@ -1,0 +1,103 @@
+@charset 'UTF-8';
+@import 'mixin';
+*{
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+nav{
+    display: block;
+}
+p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.04rem;
+}
+header{
+    z-index: 1200;
+    .header_top{
+        background: rgb(112, 215, 255);
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        padding: 0 50px;
+        overflow: hidden;
+        z-index: 999;
+
+        .topT{
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            span{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                margin-right: 31px;
+            }
+
+            a{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 25px;
+            }
+        }
+    } 
+
+    .header_bot{
+        top: 40px;
+        width: 100%;
+        height: 80px;
+        padding: 0 50px;
+        background: white;
+        z-index: 1100;
+        a{
+            img{
+                position: relative;
+                float: left;
+                width: 100px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        .navMenu{
+            display: flex;
+            position: absolute;
+            top: 50%;
+            right: 13%;
+            align-items: center;
+            a{
+                text-decoration: none;
+                margin-right: 4vw;
+                span{
+                    font-size: 20px;
+                    line-height: 25px;
+                    font-weight: 600;
+                    position: relative;
+                }
+            }
+            .navBox{
+                display: flex;
+                margin-left: 70px;
+
+                button{
+                    background: rgb(255, 131, 49);
+                    color: white;
+                    height: 36px;
+                    width: 100px;
+                    margin-right: 16px;
+                    display: inline-block;
+                    font-size: 14px;
+                    border: 1px solid rgb(255, 131, 49);
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+footer{}
