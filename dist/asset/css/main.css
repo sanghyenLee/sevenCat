@@ -310,4 +310,53 @@ p {
   font-weight: 700;
   color: black;
   cursor: pointer;
+}
+.container .InnerContainer {
+  height: 100%;
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 104px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .InnerContainer .StyleContentContainer {
+  display: inline-block;
+  width: 700px;
+  height: 186px;
+  border-radius: 20px;
+  padding: 25px 44px;
+}
+.container .InnerContainer .StyleContentContainer p:first-child {
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 800;
+  color: white;
+}
+.container .InnerContainer .StyleContentContainer p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 32px;
+  color: white;
+}
+.container .InnerContainer .StyleContentContainer button {
+  position: relative;
+  font-size: 16px;
+  font-weight: 800;
+  color: rgb(255, 131, 49);
+  background: white;
+  border-radius: 25px;
+  padding: 10px 46px 10px 23px;
+  cursor: pointer;
+}
+.container .InnerContainer .StyleContentContainer button .box_arrow {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+.container .InnerContainer .StyleContentContainer button .box_arrow img {
+  width: 11px;
+  height: 11px;
 }/*# sourceMappingURL=main.css.map */
