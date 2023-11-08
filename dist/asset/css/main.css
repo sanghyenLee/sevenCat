@@ -124,6 +124,7 @@ p {
   position: relative;
   width: 1400px;
   height: auto;
+  font-size: 0;
 }
 .container .InnerContainerL .TextContainer {
   position: absolute;
@@ -192,6 +193,7 @@ p {
   position: relative;
   width: 1400px;
   height: auto;
+  font-size: 0;
 }
 .container .InnerContainerR .TextContainer {
   position: absolute;
