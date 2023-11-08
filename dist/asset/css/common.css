@@ -135,7 +135,7 @@ footer .footerwrap .footerInner .AddressContainer ul {
 }
 footer .footerwrap .footerInner .StyleLink {
   width: 548px;
-  margin-left: 270px;
+  margin-left: 230px;
   white-space: nowrap;
 }
 footer .footerwrap .footerInner .StyleLink a {
@@ -143,4 +143,35 @@ footer .footerwrap .footerInner .StyleLink a {
   font-size: 14px;
   font-weight: 700;
   color: rgb(174, 174, 178);
+}
+footer .footerwrap .footerInner .StyleLink a:hover {
+  color: white;
+}
+footer .footerwrap .hr {
+  width: 1440px;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+footer .footerwrap .PolicyContainer {
+  display: flex;
+  position: relative;
+  width: 1430px;
+  margin: 20px auto 0px;
+  white-space: nowrap;
+  min-width: 1230px;
+}
+footer .footerwrap .PolicyContainer a span:hover {
+  color: white;
+}
+footer .footerwrap .PolicyContainer span {
+  color: rgb(174, 174, 178);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .footerwrap .PolicyContainer ul {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  color: rgb(72, 72, 74);
 }/*# sourceMappingURL=common.css.map */

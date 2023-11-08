@@ -138,7 +138,7 @@ footer{
             }
             .StyleLink{
                 width: 548px;
-                margin-left: 270px;
+                margin-left: 230px;
                 white-space: nowrap;
                 a{
                     margin-left: 40px;
@@ -146,6 +146,37 @@ footer{
                     font-weight: 700;
                     color: rgb(174, 174, 178);
                 }
+                a:hover{
+                    color: white;
+                }
+            }
+        }
+        .hr{
+            width: 1440px;
+            border: 1px solid white;
+            margin: 0 auto;
+        }
+        .PolicyContainer{
+            display: flex;
+            position: relative;
+            width: 1430px;
+            margin: 20px auto 0px;
+            white-space: nowrap;
+            min-width: 1230px;
+            a span:hover{
+                color: white;
+            }
+            span{
+                color: rgb(174, 174, 178);
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 25px;
+            }
+            ul{
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 25px;
+                color: rgb(72, 72, 74);
             }
         }
     }
