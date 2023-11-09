@@ -174,4 +174,11 @@ footer .footerwrap .PolicyContainer ul {
   font-weight: 700;
   line-height: 25px;
   color: rgb(72, 72, 74);
+}
+footer .footerwrap .PolicyContainer .WebLinkContainer {
+  margin-left: 865px;
+}
+footer .footerwrap .PolicyContainer .WebLinkContainer a {
+  vertical-align: top;
+  margin-right: 15px;
 }/*# sourceMappingURL=common.css.map */
